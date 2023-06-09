@@ -43,3 +43,64 @@ body {
     width: 30%;
     text-align: right;
 }
+
+#elems {
+    /* background-color: blue; */
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#eleme1 {
+    /* background-color: blue; */
+    width: 30%;
+    height: 100%;
+}
+
+#eleme2 {
+    /* background-color: blue; */
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid #acacac;
+    padding: 20px 60px;
+    text-align: center;
+    border-left: 1px solid #a5a5a5;
+}
+
+#eleme3 {
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+#eleme1 #image_div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image_div {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#image_div img {
+    width: 100px;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#elem3 #image_div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image_div:hover img {
+    scale: 1.1;
+}
