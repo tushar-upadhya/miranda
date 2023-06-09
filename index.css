@@ -16,3 +16,30 @@ body {
     background-color: #c4bcb3;
     position: relative;
 }
+
+#nav {
+    height: 100px;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+
+#nav img {
+    height: 30px;
+    width: 30%;
+}
+
+#nav h5 {
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+
+#nav i {
+    width: 30%;
+    text-align: right;
+}
