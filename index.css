@@ -104,3 +104,9 @@ body {
 #image_div:hover img {
     scale: 1.1;
 }
+
+#eleme1 h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
